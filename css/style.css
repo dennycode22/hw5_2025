@@ -216,7 +216,7 @@ the changes are not from media queries, but from the use of flex.) */
     Without using list-style-type add the thumbs up entity as shown in the cards. 
     This is a challenge problem. You should not give or receive help when completing it.
     **For some people the thumbs up is not printing as yellow. That is fine. */
-    ul > li:nth-child(2)::after {
+    .pricing ul > li:nth-child(2)::after {
         content: "\01F44D";
     }
 
